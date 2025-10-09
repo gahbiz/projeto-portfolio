@@ -237,6 +237,26 @@ article h2 {
   border-radius: 8px;
 }
 
+footer {
+  background-color: var(--destaque);
+  grid-column: 1 / span 3;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+  color: var(--texto-inverso);
+}
+
+footer a {
+  color: var(--texto-inverso);
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+footer a:hover {
+  color: var(--destaque-inverso);
+}
+
 @media screen and (min-width: 768px) {
   #skill-container {
     grid-template-columns: 1fr 1fr;
